@@ -40,3 +40,7 @@
 h1{
   color: greenyellow;
 }
+
+button{
+  cursor: pointer;
+}

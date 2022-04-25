@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Blog from './conponent/Blog';
+import BlogItem from './conponent/BlogItem';
 
 function App() {
   return (
