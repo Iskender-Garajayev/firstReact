@@ -4,11 +4,10 @@ import BlogItem from './BlogItem';
 export default class Blog extends Component {
   clickButton() 
     {
-
       console.log('button is work');
     }
   render() {
-    const appClick = () => {console.log('Shown from Blog Comp...... ')}
+    const appClick = () => {console.log('Shown from Blog Comp..')}
     return (
       <div>
         <h2>Where are you frolm ?</h2>

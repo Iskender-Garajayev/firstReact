@@ -1,16 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 import Blog from './conponent/Blog';
+import Header from './conponent/Header';
 import BlogItem from './conponent/BlogItem';
 
+
 function App() {
+  const appjsClick=(text)=>{
+    console.log('Click in App.js: ',text)
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>My name is Iskemder</h1>
-        <Blog/>
-      </header>
+      <Header appjsClick={appjsClick} />
+   
     </div>
   );
 }
