@@ -5,6 +5,7 @@ export default class BlogItem extends Component {
     return (
       <div>
         <h3> name is </h3>
+        <h4>{this.props.appClick}</h4>
       </div>
     )
   }

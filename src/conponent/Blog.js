@@ -13,9 +13,9 @@ export default class Blog extends Component {
       <div>
         <h2>Where are you frolm ?</h2>
         <button onClick={this.clickButton}>ADD</button>
-        {/* <BlogItem appClick{appClick} /> */}
-        <BlogItem/>
-        
+        <BlogItem appClick={appClick} />
+        {/* <BlogItem/> */}
+
       </div>
     )
   }
